@@ -49,7 +49,8 @@ def file_decompression(filename):
         tmp3='0'+tmp3
       binval=binval+tmp3
     #print binval
-    print len(binval)
+    ta = len(binval)
+    print (ta)
   while cnt< len(binval):
     repl=binval[cnt:7+cnt]
     repl='0'+repl
